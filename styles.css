@@ -1,2 +1,27 @@
+.holder{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
 
+.red, .green, .blue{
+	height: 100px;
+	width: 100px;
+	font-size: 30px;
+}
+
+.red{
+	background-color: red;
+	order: 2;
+}
+
+.blue{
+	background-color: blue;
+	order: 6;
+}
+
+.green{
+	background-color: green;
+	order: 1;
+}
 /* Your CSS Code here. */
